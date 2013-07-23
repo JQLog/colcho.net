@@ -1,7 +1,8 @@
 ColchoNet::Application.routes.draw do
   resources :rooms
+  resources :users
 
-
+  root to: 'home#index'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
